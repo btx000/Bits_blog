@@ -80,7 +80,7 @@ module.exports = {
     // 页脚信息
     createYear: 2021, // 博客创建年份
     copyrightInfo:
-      'Bits | <a href="https://github.com/btx000/Bits_blog/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签
+      'Bits | <a href="https://github.com/btx000/Bits_blog/blob/master/LICENSE" target="_blank">MIT License</a> | <a href="http://beian.miit.gov.cn/"; target=_blank>津ICP备2020009944号-1</a>', // 博客版权信息，支持a标签
   },
   htmlModules // 插入hmtl(广告)模块
 }

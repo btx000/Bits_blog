@@ -33,7 +33,7 @@ jobs: # 工作流
         env:
             SSH_PRIVATE_KEY: ${{ secrets.BLOG_DEPLOY_KEY }}
             ARGS: "-rltgoDzvO --delete"
-            SOURCE: "/docs/.vuepress/dist"
+            SOURCE: "./docs/.vuepress/dist/"
             REMOTE_HOST: ${{ secrets.DEPLOY_HOST }}
             REMOTE_USER: ${{ secrets.DEPLOY_USER }}
             TARGET: ${{ secrets.REMOTE_TARGET }}
